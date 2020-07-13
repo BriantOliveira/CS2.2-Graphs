@@ -52,7 +52,7 @@ def knapsack(items, capacity):
 
     return max(value_without, value_with)
 
-    pass
+    # pass
 
 
 def knapsack_dp(items, capacity):
@@ -88,7 +88,7 @@ def edit_distance(str1, str2):
     delete = edit_distance(str1[:-1], str2)
     replace = edit_distance(str1[:-1], str2[:-1])
     return min(insert, delete, replace) + 1
-    pass
+    # pass
 
 
 def edit_distance_dp(str1, str2):
